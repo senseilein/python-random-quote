@@ -9,7 +9,8 @@ def primary():
 
   last = len(quotes) - 1
   rnd = random.randint(0, last)
-  print(quotes[rnd])
+  source = "The Zen of Python, by Tim Peters"
+  print(quotes[rnd]+source )
 
 if __name__== "__main__":
   primary()
